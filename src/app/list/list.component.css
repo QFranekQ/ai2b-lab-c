@@ -1,0 +1,22 @@
+ul {
+  /*background-color: orange;*/
+  border: 1px solid black;
+  border-radius: 20px;
+  width:20%;
+  margin: 0 auto;
+  list-style-type: none;
+
+}
+li{
+  /*margin: 10px;*/
+  margin-right: 35px;
+  padding:10px;
+}
+button {
+  color: black;
+  border-radius: 5px;
+  background-color: orangered;
+  margin-left: 10px;
+  min-width: 30px;
+}
+

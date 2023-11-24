@@ -1,0 +1,22 @@
+table {
+  /*background-color: orange;*/
+  border: 1px solid black;
+  border-radius: 20px;
+
+  margin: 0 auto;
+  padding: 20px;
+  list-style-type: none;
+  text-align: left;
+  line-height: 1.8;
+  background-color: white;
+}
+td{
+
+  padding-left:40px
+}
+h2{
+  margin: 0 auto;
+}
+/*table{*/
+/*  margin: 0 auto;*/
+/*}*/

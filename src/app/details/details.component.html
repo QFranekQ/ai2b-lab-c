@@ -1,0 +1,27 @@
+<div class="details-container">
+  <div>
+    <a [routerLink]="'/'">&laquo; Back</a>
+  </div>
+  <div *ngIf="person" class="person">
+    <table *ngIf="person.address">
+      <h2>{{person.firstName}} {{person.lastName}}</h2>
+      <td>
+        <tr>ID:</tr>
+        <tr>Wiek:</tr>
+        <tr>Miasto:</tr>
+        <tr>Ulica:</tr>
+        <tr>Kod pocztowy:</tr>
+        </td>
+      <td>
+        <tr>{{personId}}</tr>
+        <tr>{{person.age}}</tr>
+        <tr>{{person.address.city}}</tr>
+        <tr>{{person.address.street}}</tr>
+        <tr>{{person.address.postCode}}</tr>
+      </td>
+    </table>
+  </div>
+  <div class="alert" *ngIf="!person">
+    Person not found!
+  </div>
+</div>
